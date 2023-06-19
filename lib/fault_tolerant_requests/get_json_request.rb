@@ -1,4 +1,5 @@
 require "uri"
+require "open-uri"
 class FaultTolerantRequests::GetJsonRequest
     def initialize(proxy_ip = false, user_agent = false, debug = false)
         @proxy_ip = proxy_ip
